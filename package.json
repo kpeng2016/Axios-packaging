@@ -1,0 +1,19 @@
+{
+  "name": "axiospackaging",
+  "version": "0.0.1",
+  "description": "基于aios的API封装管理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricemonster/Axios-packaging.git"
+  },
+  "author": "\u001b[A\u001b[C\u001b[Caxios\u001b[A\u001b[B\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DRM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricemonster/Axios-packaging/issues"
+  },
+  "homepage": "https://github.com/Ricemonster/Axios-packaging#readme"
+}
