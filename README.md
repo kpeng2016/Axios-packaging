@@ -1,6 +1,6 @@
-[![Build Status](https://img.shields.io/twitter/url/https/www.npmjs.com%2Fpackage%2Faxiospackaging)](https://www.npmjs.com/package/axiospackaging)
+[![Build Status](https://img.shields.io/npm/v/axiospackaging)](https://www.npmjs.com/package/axiospackaging)
 
-![Image text](https://imgchr.com/i/ed8TAJ)
+![Image text](https://s2.ax1x.com/2019/08/02/ed8TAJ.png)
 ### 介绍
 基于三个模块的AXIOS二次封装，核心代码是`http.js`,`api`的调用是在模块里的，自己写，这一次的封装开放度给的很足
 ### 使用
