@@ -5,7 +5,7 @@ Vue.config.productionTip = false
 import HTTP from 'axiospackaging'
 // 实例配置
 HTTP.instance.defaults.baseURL = 'https://cnodejs.org/api/v1'
-HTTP.instance.defaults.timeout = 1000
+HTTP.instance.defaults.timeout = 10000
 // 实例注册
 Vue.prototype.$http = HTTP
 

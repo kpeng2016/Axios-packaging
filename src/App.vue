@@ -9,7 +9,6 @@ import api from './them_request.js'
 export default {
   name: 'app',
   methods:{
-    // 请求方法
     fetchData: async function () {
       let params = {}
       const res = await this.$http.get(api.get.首页,params)
