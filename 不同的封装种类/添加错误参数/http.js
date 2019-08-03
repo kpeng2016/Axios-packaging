@@ -78,9 +78,7 @@ export default {
     }).then(
       // 检测正确性
       (response) => {
-        if (response && (response.status === 200 || response.status === 304 || response.status === 400)) {
           return response
-        }
       }
     ).catch(
       // 打印错误消息
