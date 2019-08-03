@@ -22,17 +22,17 @@
 `npm i axios`或`yarn add axios`
 
 ## Installing
-Using npm:
+Using npm:   
 `$ npm i axiospackaging`
-Using yarn:
+Using yarn:   
 `$ yarn add axiospackaging`
-Using cdn:
+Using cdn:   
 `$ 待定,还没时间`
 
 ## 使用
 
 ### 框架中的使用
-Using Vue Import:
+Using Vue Import:   
 [vue-demo](https://github.com/Ricemonster/Axios-packaging/tree/vue-demo)
 
 Using React Import: `待定，还未有时间，如果你想帮我测试的话，万分感谢！`
@@ -68,9 +68,9 @@ fetchData: async function () {
 
 
 ## API
- get
+ get   
  `this.$http.get(url,params)`
- post
+ post   
  `this.$http.post(url,data)`
 
 ## Resources
