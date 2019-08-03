@@ -2,7 +2,7 @@
 import axios from 'axios'
 import qs from 'qs'
 
-
+// 应该是async处理函数
 axios.interceptors.request.use(config => {
   return config
 }, error => {
@@ -78,14 +78,11 @@ export default {
     }).then(
       // 检测正确性
       (response) => {
-        if (response && (response.status === 200 || response.status === 304 || response.status === 400)) {
-          return response
-        }
+        return response
       }
     ).catch(
-      // 打印错误消息
       (err) => {
-      return checkStatus(err)
+        return checkStatus(err)
     })
   }
 }

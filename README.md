@@ -10,11 +10,10 @@
 * `请求相关配置`更加透明化，开放接口供用户配置
 * 自由开发相关模块
 ## 须知
-***注意事项:*** 引入前请先下载本项目的依赖 `npm i axios`或`yarn add axios`
+***注意事项:*** 引入前请先下载本项目的依赖Axios 
+`npm i axios`或`yarn add axios`
 
-***注意事项:*** 引入前请先下载本项目的依赖 `npm i axios`
 ## Installing
-````
 Using npm:
 `$ npm i axiospackaging`
 Using yarn:
@@ -36,14 +35,9 @@ Using React Import: `待定，还未有时间，如果你想帮我测试的话�
 3.使用请求
 
 GET请求
-~~~
-
-~~~
 
 POST请求
-~~~
 
-~~~
 
 ## 二次封装(axios API)
 

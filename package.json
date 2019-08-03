@@ -1,6 +1,6 @@
 {
   "name": "axiospackaging",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于aios的API封装管理",
   "main": "index.js",
   "scripts": {
