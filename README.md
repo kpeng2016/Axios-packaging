@@ -26,7 +26,12 @@ GET请求
 
 ![此处输入图片的描述][1]![此处输入图片的描述][2]
 
+~~~js
+async getData(){
+  let res = await this.$http.get(url,params)
+}
 
+~~~
 
 
 
