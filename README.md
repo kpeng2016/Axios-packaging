@@ -23,9 +23,7 @@ GET请求
 
 ----------
 
-
-  [1]: https://s2.ax1x.com/2019/08/04/e6Skbq.png
-
+![项目使用图片](https://s2.ax1x.com/2019/08/04/e6Skbq.png)
 
 ----------
 
