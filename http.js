@@ -69,7 +69,7 @@ export default {
     )
   },
   // GET请求
-  get (url, params) {
+  get (url, params={}) {
     return instance({
       method: 'get',
       url,
