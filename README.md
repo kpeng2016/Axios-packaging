@@ -21,22 +21,13 @@
 GET请求
 
 
+----------
 
 
-
-![此处输入图片的描述][1]![此处输入图片的描述][2]
-
-~~~js
-async getData(){
-  let res = await this.$http.get(url,params)
-}
-
-~~~
+  [1]: https://s2.ax1x.com/2019/08/04/e6Skbq.png
 
 
-
-
-
+----------
 
 
 ## 须知
