@@ -1,4 +1,4 @@
-// 'use strict'
+'use strict'
 import axios from 'axios'
 import qs from 'qs'
 
@@ -35,6 +35,13 @@ function _show_error(error_code) {
     // 如果存在返回原有的，如果不存在默认返回‘抱歉出了一个错误’
     return tip?tip:tips[1]
   }
+function _isPostorGet(or){
+  if(or === 'get' || or === 'GET'){
+    return 'get'
+  }else if(or === 'post' || or === 'POST'){
+    return 'post'
+  }
+}
 
 
 // 集中式的错误处理和成功处理
@@ -43,21 +50,24 @@ function checkStatus (response) {
   // 如果不是则返回错误信息
   const errmsg = _show_error(response.status)
   return alert(errmsg)
+  // 如果想美观一点，就使用UI框架的消息提示
 }
+
+
+
 
 
 // 核心代码
 let instance = axios.create()
-
 export default {
   instance,
   // POST请求
-  post (url, data) {
+  post ({url, data,headers={}}) {
     return instance({
       method: 'post',
       url,
       data: qs.stringify(data),
-      headers: {}
+      headers
     }).then(
       (response) => {
         return checkStatus(response)
@@ -69,14 +79,13 @@ export default {
     )
   },
   // GET请求
-  get (url, params={}) {
+  get ({url, params={},headers={}}) {
     return instance({
       method: 'get',
       url,
       params,
-      headers: {}
+      headers
     }).then(
-      // 检测正确性
       (response) => {
         return response
       }
